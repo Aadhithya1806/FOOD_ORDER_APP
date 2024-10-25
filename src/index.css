@@ -249,6 +249,30 @@ h1 {
   background-color: rgba(0, 0, 0, 0.55);
 }
 
+.center{
+  width: 20%;
+  margin: 5px auto;
+}
+
+
+.error{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(59, 59, 59, 0.55);
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  width: 80%;
+  max-width: 40rem;
+  margin: 5px auto;
+  animation: fade-slide-up 0.3s ease-out forwards;
+  z-index: -1;
+  color:red ;
+}
+
 @keyframes fade-slide-up {
   from {
     opacity: 0;
